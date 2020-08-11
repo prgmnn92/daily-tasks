@@ -1,0 +1,37 @@
+.taskinput {
+    width: 100%;
+    position: relative;
+
+    span {
+        font-size: 2rem;
+    }
+
+    &__title-input {
+
+        outline: none;
+        font-size: 1.8rem;
+        padding: 1rem;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    &__body-input {
+
+        font-size: 1.8rem;
+        padding: 1rem;
+
+    }
+
+    &__label {
+        font-size: 1.8rem;
+    }
+
+    &__btn {
+        margin-top: 2rem;
+        padding: .5rem 2.5rem;
+        font-size: 1.6rem;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+    }
+}

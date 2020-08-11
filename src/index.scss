@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --dark-blue-color: #142850;
+  --light-blue-color: #dee9ff;
+  --light-red-color: #ff7c7c;
+  --light-gray-color: #f2f2f2;
+}

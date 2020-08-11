@@ -1,0 +1,15 @@
+.taskcard {
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: .4rem;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--light-red-color);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+}

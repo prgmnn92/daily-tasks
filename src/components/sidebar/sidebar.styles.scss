@@ -1,0 +1,17 @@
+.sidebar {
+    height: 100%;
+    width: 20%;
+    min-width: 31rem;
+    background-color: var(--dark-blue-color);
+    color: #fff;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr min-content;
+
+    &__header {
+        text-transform: uppercase;
+        font-size: 4rem;
+        padding-bottom: 4rem;
+    }
+}
